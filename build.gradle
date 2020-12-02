@@ -22,8 +22,8 @@ plugins {
     id 'com.github.johnrengelman.shadow' version '6.0.0'
 }
 
-group = 'com.github.tomakehurst'
-version = '2.27.2'
+group = 'com.github.mrsalt'
+version = '0.1.0'
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
@@ -277,9 +277,9 @@ def pomInfo = {
     description 'A web service test double for all occasions'
     url 'http://wiremock.org'
     scm {
-        connection 'https://tomakehurst@github.com/tomakehurst/wiremock.git'
-        developerConnection 'https://tomakehurst@github.com/tomakehurst/wiremock.git'
-        url 'https://tomakehurst@github.com/tomakehurst/wiremock.git'
+        connection 'https://mrsalt@github.com/mrsalt/wiremock.git'
+        developerConnection 'https://mrsalt@github.com/mrsalt/wiremock.git'
+        url 'https://mrsalt@github.com/mrsalt/wiremock.git'
     }
     licenses {
         license {
@@ -292,6 +292,10 @@ def pomInfo = {
         developer {
             id 'tomakehurst'
             name 'Tom Akehurst'
+        }
+        developer {
+            id 'mrsalt'
+            name 'Mark Salisbury'
         }
     }
 }
